@@ -37,7 +37,12 @@ The approach involves:
 - Model Evaluation: Using metrics like accuracy, precision, recall, and F1-score to evaluate model performance.
 
 ## Results
-The models developed in this project aim to accurately predict whether a patient will survive based on their medical data. This predictive capability could prove valuable in improving patient care and treatment decisions.
+The best-performing model was XGBoost model with default hyperparameter, achieving an accuracy of 84.31% on the test dataset. Additionally, the use of feature engineering (e.g., Bilirubin-Albumin ratio) improved the model's interpretability and prediction reliability. Key insights include:
+- Bilirubin and Albumin levels were identified as significant predictors of patient outcomes.
+- The model was able to classify patients into high-risk and low-risk categories effectively, providing valuable decision-making support.
+
+## Conclusion
+This project demonstrates the potential of machine learning to predict cirrhosis outcomes based on clinical data. The models developed can be integrated into decision support tools for healthcare providers, allowing them to make more informed decisions regarding treatment and patient care.
 
 ## Future Work
 Potential enhancements include:
