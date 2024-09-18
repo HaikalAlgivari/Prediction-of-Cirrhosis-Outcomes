@@ -23,6 +23,7 @@ The dataset used in this project includes the following features:
 - Prothrombin: Prothrombin time.
 - Stage: The stage of cirrhosis.
 - Status: The final outcome for the patient (alive or dead).
+
 These features are crucial for evaluating liver function and disease progression.
 
 ## Objectives
